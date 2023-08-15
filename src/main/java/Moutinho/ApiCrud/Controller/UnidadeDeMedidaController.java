@@ -40,5 +40,8 @@ public class UnidadeDeMedidaController {
         return ResponseEntity.ok(dadosPage);
     }
 
-
+    @PutMapping
+    public ResponseEntity atualizar(@RequestBody DadosAtualizarUnidadeMedida dados) {
+        // repository.FindById(dados).save();
+    }
 }
